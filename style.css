@@ -1,0 +1,90 @@
+.container{
+    background-color: red;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+.wrapper{
+    background-color: white;
+    width: 80%;
+    height: 510px;
+    /* overflow: auto; */
+}
+.tampil{
+    width: 100%;
+    /* background-image: url(satu.jpg); */
+    height: 250px;
+    /* background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat; */
+    /* border-bottom:3px solid black ; */
+}
+.tampil img{
+    width: 100%;
+    height: 250px;
+
+}
+.isi{
+    /* background-color: green; */
+    width: 100%;
+    height: 250px;
+}
+.isi .slide1{
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    height: 125px;
+    /* border: 2px solid black; */
+
+}
+.slide1 img{
+    width:32% ;
+    height: 125px;
+    padding: 3px;
+}
+.isi .slide2{
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    height: 125px;
+    /* border: 2px solid black; */
+    
+}
+.slide2 img{
+    width:32% ;
+    height: 125px;
+    padding:3px;
+    margin-top: 5px;
+}
+h1{
+    text-align: center;
+}
+@media screen and (min-width:1500px) {
+    .container{
+        width: 900px;
+        height: 700px;
+        margin: 0px auto;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .wrapper{
+        height: 550px;
+    }
+    .tampil img{
+        height: 280px;
+    }
+    .slide1{
+        height: 150px;
+        margin-top: 35px;
+    }
+    .slide{
+        margin-left: 5px;
+    }
+    h1:after{
+        content: 'ukuranLaptop';
+    }
+}
